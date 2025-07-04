@@ -1,16 +1,37 @@
-header {
-  margin: 3rem auto;
-  text-align: center;
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: 2.5rem auto;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2rem;
 }
 
-img {
-  width: 8rem;
+#users {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  overflow: auto;
 }
 
 h1 {
   margin: 1rem auto;
+  text-align: center;
   background: -webkit-linear-gradient(45deg, #f9096d, #b700ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin: 4rem auto;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  #users {
+    flex-direction: column;
+  }
 }

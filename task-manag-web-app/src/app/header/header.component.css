@@ -13,20 +13,11 @@ header {
     #450d80
   );
   padding: 1rem;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
   border-bottom-right-radius: 12px;
   border-bottom-left-radius: 12px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
-}
-
-img {
-  width: 3.5rem;
-  object-fit: contain;
-}
-
-h1 {
-  font-size: 1.25rem;
-  margin: 0;
-  padding: 0;
 }
 
 p {
