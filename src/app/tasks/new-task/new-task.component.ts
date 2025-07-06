@@ -1,6 +1,6 @@
-import { Component, Output, EventEmitter, output } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // Useful for ngModel
-import { NewTask } from '../new-task-model';
+import { NewTask } from '../new-task.model';
 
 @Component({
   selector: 'app-new-task',
