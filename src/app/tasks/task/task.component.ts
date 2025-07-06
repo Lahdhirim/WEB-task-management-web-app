@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common'; // Useful for date
+import { CommonModule } from '@angular/common'; // Useful for date formatting
 
 type Task = {
   id: string;
