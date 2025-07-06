@@ -25,6 +25,13 @@ h1 {
   font-size: 3rem;
 }
 
+#fallback {
+  font-weight: bold;
+  font-size: 1.15rem;
+  margin: 0;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   main {
     margin: 4rem auto;
@@ -33,5 +40,10 @@ h1 {
 
   #users {
     flex-direction: column;
+  }
+
+  #fallback {
+    font-size: 1.5rem;
+    text-align: left;
   }
 }
