@@ -1,13 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common'; // Useful for date formatting
-
-type Task = {
-  id: string;
-  userId: string;
-  title: string;
-  summary: string;
-  dueDate: Date;
-}
+import { Task } from '../task-model';
 
 @Component({
   selector: 'app-task',
