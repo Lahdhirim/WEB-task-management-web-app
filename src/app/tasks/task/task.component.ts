@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common'; // Useful for date formatting
 
 type Task = {
@@ -18,5 +18,10 @@ type Task = {
 })
 export class TaskComponent {
   @Input({ required: true }) task!: Task;
+  @Output() completeTask = new EventEmitter<string>();
+
+  onCompleteTask() {
+    this.completeTask.emit(this.task.id);
+  }
 
 }
