@@ -50,3 +50,9 @@ While this project works fully in the frontend, it's structured to easily integr
     ```
 
 4. Open your browser and navigate to `http://localhost:4200` to see the application.
+
+## Notes
+
+- Task data will persist in Local Storage until manually cleared.
+- Removing a task or refreshing the app will maintain state using the browser's storage.
+
