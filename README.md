@@ -35,8 +35,8 @@ While this project works fully in the frontend, it's structured to easily integr
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Lahdhirim/WEB_task_manag_web_app.git
-    cd WEB_task_manag_web_app
+    git clone https://github.com/Lahdhirim/WEB-task-management-web-app.git
+    cd WEB-task-management-web-app
     ```
 
 2. Install dependencies:
